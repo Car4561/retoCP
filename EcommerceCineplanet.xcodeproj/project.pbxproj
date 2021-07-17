@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3D9E24A26A2674E008F8353 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D9E24926A2674E008F8353 /* AppDelegate.swift */; };
+		D3D9E24C26A2674E008F8353 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D9E24B26A2674E008F8353 /* SceneDelegate.swift */; };
+		D3D9E24E26A2674E008F8353 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D9E24D26A2674E008F8353 /* ViewController.swift */; };
+		D3D9E25126A2674E008F8353 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3D9E24F26A2674E008F8353 /* Main.storyboard */; };
+		D3D9E25326A2674F008F8353 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3D9E25226A2674F008F8353 /* Assets.xcassets */; };
+		D3D9E25626A2674F008F8353 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3D9E25426A2674F008F8353 /* LaunchScreen.storyboard */; };
+		D3D9E26126A2674F008F8353 /* EcommerceCineplanetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D9E26026A2674F008F8353 /* EcommerceCineplanetTests.swift */; };
+		D3D9E26C26A26750008F8353 /* EcommerceCineplanetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D9E26B26A26750008F8353 /* EcommerceCineplanetUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3D9E25D26A2674F008F8353 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3D9E23E26A2674E008F8353 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3D9E24526A2674E008F8353;
+			remoteInfo = EcommerceCineplanet;
+		};
+		D3D9E26826A26750008F8353 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3D9E23E26A2674E008F8353 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3D9E24526A2674E008F8353;
+			remoteInfo = EcommerceCineplanet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3D9E24626A2674E008F8353 /* EcommerceCineplanet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcommerceCineplanet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D9E24926A2674E008F8353 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3D9E24B26A2674E008F8353 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D3D9E24D26A2674E008F8353 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3D9E25026A2674E008F8353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3D9E25226A2674F008F8353 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3D9E25526A2674F008F8353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3D9E25726A2674F008F8353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3D9E25C26A2674F008F8353 /* EcommerceCineplanetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcommerceCineplanetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D9E26026A2674F008F8353 /* EcommerceCineplanetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcommerceCineplanetTests.swift; sourceTree = "<group>"; };
+		D3D9E26226A2674F008F8353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3D9E26726A26750008F8353 /* EcommerceCineplanetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcommerceCineplanetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D9E26B26A26750008F8353 /* EcommerceCineplanetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcommerceCineplanetUITests.swift; sourceTree = "<group>"; };
+		D3D9E26D26A26750008F8353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3D9E24326A2674E008F8353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D9E25926A2674F008F8353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D9E26426A26750008F8353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3D9E23D26A2674E008F8353 = {
+			isa = PBXGroup;
+			children = (
+				D3D9E24826A2674E008F8353 /* EcommerceCineplanet */,
+				D3D9E25F26A2674F008F8353 /* EcommerceCineplanetTests */,
+				D3D9E26A26A26750008F8353 /* EcommerceCineplanetUITests */,
+				D3D9E24726A2674E008F8353 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3D9E24726A2674E008F8353 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3D9E24626A2674E008F8353 /* EcommerceCineplanet.app */,
+				D3D9E25C26A2674F008F8353 /* EcommerceCineplanetTests.xctest */,
+				D3D9E26726A26750008F8353 /* EcommerceCineplanetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3D9E24826A2674E008F8353 /* EcommerceCineplanet */ = {
+			isa = PBXGroup;
+			children = (
+				D3D9E24926A2674E008F8353 /* AppDelegate.swift */,
+				D3D9E24B26A2674E008F8353 /* SceneDelegate.swift */,
+				D3D9E24D26A2674E008F8353 /* ViewController.swift */,
+				D3D9E24F26A2674E008F8353 /* Main.storyboard */,
+				D3D9E25226A2674F008F8353 /* Assets.xcassets */,
+				D3D9E25426A2674F008F8353 /* LaunchScreen.storyboard */,
+				D3D9E25726A2674F008F8353 /* Info.plist */,
+			);
+			path = EcommerceCineplanet;
+			sourceTree = "<group>";
+		};
+		D3D9E25F26A2674F008F8353 /* EcommerceCineplanetTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3D9E26026A2674F008F8353 /* EcommerceCineplanetTests.swift */,
+				D3D9E26226A2674F008F8353 /* Info.plist */,
+			);
+			path = EcommerceCineplanetTests;
+			sourceTree = "<group>";
+		};
+		D3D9E26A26A26750008F8353 /* EcommerceCineplanetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3D9E26B26A26750008F8353 /* EcommerceCineplanetUITests.swift */,
+				D3D9E26D26A26750008F8353 /* Info.plist */,
+			);
+			path = EcommerceCineplanetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3D9E24526A2674E008F8353 /* EcommerceCineplanet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3D9E27026A26750008F8353 /* Build configuration list for PBXNativeTarget "EcommerceCineplanet" */;
+			buildPhases = (
+				D3D9E24226A2674E008F8353 /* Sources */,
+				D3D9E24326A2674E008F8353 /* Frameworks */,
+				D3D9E24426A2674E008F8353 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EcommerceCineplanet;
+			productName = EcommerceCineplanet;
+			productReference = D3D9E24626A2674E008F8353 /* EcommerceCineplanet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3D9E25B26A2674F008F8353 /* EcommerceCineplanetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3D9E27326A26750008F8353 /* Build configuration list for PBXNativeTarget "EcommerceCineplanetTests" */;
+			buildPhases = (
+				D3D9E25826A2674F008F8353 /* Sources */,
+				D3D9E25926A2674F008F8353 /* Frameworks */,
+				D3D9E25A26A2674F008F8353 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3D9E25E26A2674F008F8353 /* PBXTargetDependency */,
+			);
+			name = EcommerceCineplanetTests;
+			productName = EcommerceCineplanetTests;
+			productReference = D3D9E25C26A2674F008F8353 /* EcommerceCineplanetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3D9E26626A26750008F8353 /* EcommerceCineplanetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3D9E27626A26750008F8353 /* Build configuration list for PBXNativeTarget "EcommerceCineplanetUITests" */;
+			buildPhases = (
+				D3D9E26326A26750008F8353 /* Sources */,
+				D3D9E26426A26750008F8353 /* Frameworks */,
+				D3D9E26526A26750008F8353 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3D9E26926A26750008F8353 /* PBXTargetDependency */,
+			);
+			name = EcommerceCineplanetUITests;
+			productName = EcommerceCineplanetUITests;
+			productReference = D3D9E26726A26750008F8353 /* EcommerceCineplanetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3D9E23E26A2674E008F8353 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D3D9E24526A2674E008F8353 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					D3D9E25B26A2674F008F8353 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D3D9E24526A2674E008F8353;
+					};
+					D3D9E26626A26750008F8353 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D3D9E24526A2674E008F8353;
+					};
+				};
+			};
+			buildConfigurationList = D3D9E24126A2674E008F8353 /* Build configuration list for PBXProject "EcommerceCineplanet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3D9E23D26A2674E008F8353;
+			productRefGroup = D3D9E24726A2674E008F8353 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3D9E24526A2674E008F8353 /* EcommerceCineplanet */,
+				D3D9E25B26A2674F008F8353 /* EcommerceCineplanetTests */,
+				D3D9E26626A26750008F8353 /* EcommerceCineplanetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3D9E24426A2674E008F8353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D9E25626A2674F008F8353 /* LaunchScreen.storyboard in Resources */,
+				D3D9E25326A2674F008F8353 /* Assets.xcassets in Resources */,
+				D3D9E25126A2674E008F8353 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D9E25A26A2674F008F8353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D9E26526A26750008F8353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3D9E24226A2674E008F8353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D9E24E26A2674E008F8353 /* ViewController.swift in Sources */,
+				D3D9E24A26A2674E008F8353 /* AppDelegate.swift in Sources */,
+				D3D9E24C26A2674E008F8353 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D9E25826A2674F008F8353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D9E26126A2674F008F8353 /* EcommerceCineplanetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3D9E26326A26750008F8353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D9E26C26A26750008F8353 /* EcommerceCineplanetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3D9E25E26A2674F008F8353 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3D9E24526A2674E008F8353 /* EcommerceCineplanet */;
+			targetProxy = D3D9E25D26A2674F008F8353 /* PBXContainerItemProxy */;
+		};
+		D3D9E26926A26750008F8353 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3D9E24526A2674E008F8353 /* EcommerceCineplanet */;
+			targetProxy = D3D9E26826A26750008F8353 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3D9E24F26A2674E008F8353 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3D9E25026A2674E008F8353 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3D9E25426A2674F008F8353 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3D9E25526A2674F008F8353 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3D9E26E26A26750008F8353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3D9E26F26A26750008F8353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3D9E27126A26750008F8353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EcommerceCineplanet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlosllerena.EcommerceCineplanet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3D9E27226A26750008F8353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EcommerceCineplanet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlosllerena.EcommerceCineplanet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3D9E27426A26750008F8353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EcommerceCineplanetTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlosllerena.EcommerceCineplanetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EcommerceCineplanet.app/EcommerceCineplanet";
+			};
+			name = Debug;
+		};
+		D3D9E27526A26750008F8353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EcommerceCineplanetTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlosllerena.EcommerceCineplanetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EcommerceCineplanet.app/EcommerceCineplanet";
+			};
+			name = Release;
+		};
+		D3D9E27726A26750008F8353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EcommerceCineplanetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlosllerena.EcommerceCineplanetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EcommerceCineplanet;
+			};
+			name = Debug;
+		};
+		D3D9E27826A26750008F8353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EcommerceCineplanetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlosllerena.EcommerceCineplanetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EcommerceCineplanet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3D9E24126A2674E008F8353 /* Build configuration list for PBXProject "EcommerceCineplanet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D9E26E26A26750008F8353 /* Debug */,
+				D3D9E26F26A26750008F8353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3D9E27026A26750008F8353 /* Build configuration list for PBXNativeTarget "EcommerceCineplanet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D9E27126A26750008F8353 /* Debug */,
+				D3D9E27226A26750008F8353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3D9E27326A26750008F8353 /* Build configuration list for PBXNativeTarget "EcommerceCineplanetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D9E27426A26750008F8353 /* Debug */,
+				D3D9E27526A26750008F8353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3D9E27626A26750008F8353 /* Build configuration list for PBXNativeTarget "EcommerceCineplanetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D9E27726A26750008F8353 /* Debug */,
+				D3D9E27826A26750008F8353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3D9E23E26A2674E008F8353 /* Project object */;
+}
