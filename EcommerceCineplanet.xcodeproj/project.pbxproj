@@ -10,6 +10,7 @@
 		6E86FEAE5A39B9BEB5447E0B /* Pods_EcommerceCineplanet_EcommerceCineplanetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7301FEEB502046A36D97881 /* Pods_EcommerceCineplanet_EcommerceCineplanetUITests.framework */; };
 		8B0EEF971471E6AFE43CA1AA /* Pods_EcommerceCineplanetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A21B72EA43B66C20410162C6 /* Pods_EcommerceCineplanetTests.framework */; };
 		BC9003A841C38A1E310A861F /* Pods_EcommerceCineplanet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DB90FE2A1795AC8A660B32 /* Pods_EcommerceCineplanet.framework */; };
+		D372D9EE26A55A8800F21F50 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372D9ED26A55A8800F21F50 /* LoginViewController.swift */; };
 		D3C2D53B26A49151007E2F0C /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C2D53A26A49151007E2F0C /* PaymentViewController.swift */; };
 		D3C2D54326A49180007E2F0C /* PaymentPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C2D54226A49180007E2F0C /* PaymentPresenter.swift */; };
 		D3C2D54B26A4A3CB007E2F0C /* PostCulqiApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C2D54A26A4A3CB007E2F0C /* PostCulqiApiRequest.swift */; };
@@ -58,7 +59,6 @@
 		D3DA91F526A34397004C6C94 /* BasePresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DA91F426A34397004C6C94 /* BasePresent.swift */; };
 		D3DA91FB26A34A58004C6C94 /* HomeConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DA91FA26A34A58004C6C94 /* HomeConfiguration.swift */; };
 		D3DA920326A34C27004C6C94 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DA920226A34C27004C6C94 /* Extensions.swift */; };
-		D3DA92CC26A37BED004C6C94 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DA92CB26A37BED004C6C94 /* LoginViewController.swift */; };
 		D3DA92D126A37C56004C6C94 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DA92D026A37C56004C6C94 /* LoginPresenter.swift */; };
 		D3DA92D926A38585004C6C94 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DA92D826A38585004C6C94 /* Session.swift */; };
 		D3DA92DE26A38ACC004C6C94 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DA92DD26A38ACC004C6C94 /* User.swift */; };
@@ -99,6 +99,7 @@
 		C04304DD130C7EA64EB2E98D /* Pods-EcommerceCineplanet-EcommerceCineplanetUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcommerceCineplanet-EcommerceCineplanetUITests.release.xcconfig"; path = "Target Support Files/Pods-EcommerceCineplanet-EcommerceCineplanetUITests/Pods-EcommerceCineplanet-EcommerceCineplanetUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C7301FEEB502046A36D97881 /* Pods_EcommerceCineplanet_EcommerceCineplanetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EcommerceCineplanet_EcommerceCineplanetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAFEEB41BD39B7EF709E5E95 /* Pods-EcommerceCineplanet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcommerceCineplanet.release.xcconfig"; path = "Target Support Files/Pods-EcommerceCineplanet/Pods-EcommerceCineplanet.release.xcconfig"; sourceTree = "<group>"; };
+		D372D9ED26A55A8800F21F50 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D3C2D53A26A49151007E2F0C /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
 		D3C2D54226A49180007E2F0C /* PaymentPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentPresenter.swift; sourceTree = "<group>"; };
 		D3C2D54A26A4A3CB007E2F0C /* PostCulqiApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCulqiApiRequest.swift; sourceTree = "<group>"; };
@@ -153,7 +154,6 @@
 		D3DA91F426A34397004C6C94 /* BasePresent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresent.swift; sourceTree = "<group>"; };
 		D3DA91FA26A34A58004C6C94 /* HomeConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeConfiguration.swift; sourceTree = "<group>"; };
 		D3DA920226A34C27004C6C94 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		D3DA92CB26A37BED004C6C94 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../../../../../../LoginViewController.swift; sourceTree = "<group>"; };
 		D3DA92D026A37C56004C6C94 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
 		D3DA92D826A38585004C6C94 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		D3DA92DD26A38ACC004C6C94 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -216,6 +216,13 @@
 				A21B72EA43B66C20410162C6 /* Pods_EcommerceCineplanetTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D372D9F526A55ACA00F21F50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		D3C2D53626A490CD007E2F0C /* Payment */ = {
@@ -291,13 +298,6 @@
 				D3C2D57D26A4C755007E2F0C /* Issuer.swift */,
 				D3C2D58726A4E0BC007E2F0C /* Complete.swift */,
 				D3C2D58C26A4EA69007E2F0C /* CompleteResponse.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		D3C2D63226A52B2B007E2F0C /* Model */ = {
-			isa = PBXGroup;
-			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -424,7 +424,7 @@
 		D3D9E37526A28651008F8353 /* Menu */ = {
 			isa = PBXGroup;
 			children = (
-				D3C2D63226A52B2B007E2F0C /* Model */,
+				D372D9F526A55ACA00F21F50 /* Model */,
 				D3D9E37626A28665008F8353 /* View */,
 				D3D9E37A26A286D0008F8353 /* Presenter */,
 				D3D9E39926A28CBF008F8353 /* MenuConfiguration.swift */,
@@ -515,7 +515,7 @@
 		D3DA92C926A37BC0004C6C94 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				D3DA92CB26A37BED004C6C94 /* LoginViewController.swift */,
+				D372D9ED26A55A8800F21F50 /* LoginViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -840,7 +840,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3DA92CC26A37BED004C6C94 /* LoginViewController.swift in Sources */,
 				D3C2D5A426A4FD0B007E2F0C /* CircleAnimationView.swift in Sources */,
 				D3C2D57426A4C580007E2F0C /* JSONNull.swift in Sources */,
 				D3D9E24E26A2674E008F8353 /* ViewController.swift in Sources */,
@@ -866,6 +865,7 @@
 				D3D9E30626A27447008F8353 /* PremierResponse.swift in Sources */,
 				D3D9E3AD26A2B47D008F8353 /* PremierSlide.swift in Sources */,
 				D3D9E3BB26A2B649008F8353 /* Premier.swift in Sources */,
+				D372D9EE26A55A8800F21F50 /* LoginViewController.swift in Sources */,
 				D3D9E40126A2BC34008F8353 /* RestClient.swift in Sources */,
 				D3DA91F526A34397004C6C94 /* BasePresent.swift in Sources */,
 				D3D9E39A26A28CBF008F8353 /* MenuConfiguration.swift in Sources */,
