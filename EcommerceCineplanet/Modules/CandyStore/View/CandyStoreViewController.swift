@@ -101,7 +101,7 @@ class CandyStoreViewController : UIViewController , CandyStoreViewProtocol {
         
         let candyStoreSelect = candyStores[indexPath]
         
-        totalAmount+=Double(candyStoreSelect.price) ?? 0.0
+        totalAmount+=Double(candyStoreSelect.price) ?? 0.00
         
         btnShoppingCart.setTitle("S/\(totalAmount.truncate(places: 2))", for: .normal)
         if totalAmount == 0 {
