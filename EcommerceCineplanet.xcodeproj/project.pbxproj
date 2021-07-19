@@ -10,6 +10,7 @@
 		6E86FEAE5A39B9BEB5447E0B /* Pods_EcommerceCineplanet_EcommerceCineplanetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7301FEEB502046A36D97881 /* Pods_EcommerceCineplanet_EcommerceCineplanetUITests.framework */; };
 		8B0EEF971471E6AFE43CA1AA /* Pods_EcommerceCineplanetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A21B72EA43B66C20410162C6 /* Pods_EcommerceCineplanetTests.framework */; };
 		BC9003A841C38A1E310A861F /* Pods_EcommerceCineplanet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5DB90FE2A1795AC8A660B32 /* Pods_EcommerceCineplanet.framework */; };
+		D32F4F2026A55DBC0055485E /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32F4F1F26A55DBC0055485E /* Empty.swift */; };
 		D372D9EE26A55A8800F21F50 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D372D9ED26A55A8800F21F50 /* LoginViewController.swift */; };
 		D3C2D53B26A49151007E2F0C /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C2D53A26A49151007E2F0C /* PaymentViewController.swift */; };
 		D3C2D54326A49180007E2F0C /* PaymentPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C2D54226A49180007E2F0C /* PaymentPresenter.swift */; };
@@ -99,6 +100,7 @@
 		C04304DD130C7EA64EB2E98D /* Pods-EcommerceCineplanet-EcommerceCineplanetUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcommerceCineplanet-EcommerceCineplanetUITests.release.xcconfig"; path = "Target Support Files/Pods-EcommerceCineplanet-EcommerceCineplanetUITests/Pods-EcommerceCineplanet-EcommerceCineplanetUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C7301FEEB502046A36D97881 /* Pods_EcommerceCineplanet_EcommerceCineplanetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EcommerceCineplanet_EcommerceCineplanetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAFEEB41BD39B7EF709E5E95 /* Pods-EcommerceCineplanet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EcommerceCineplanet.release.xcconfig"; path = "Target Support Files/Pods-EcommerceCineplanet/Pods-EcommerceCineplanet.release.xcconfig"; sourceTree = "<group>"; };
+		D32F4F1F26A55DBC0055485E /* Empty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empty.swift; sourceTree = "<group>"; };
 		D372D9ED26A55A8800F21F50 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D3C2D53A26A49151007E2F0C /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
 		D3C2D54226A49180007E2F0C /* PaymentPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentPresenter.swift; sourceTree = "<group>"; };
@@ -218,9 +220,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D372D9F526A55ACA00F21F50 /* Model */ = {
+		D32F4F1E26A55D990055485E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D32F4F1F26A55DBC0055485E /* Empty.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -424,7 +427,7 @@
 		D3D9E37526A28651008F8353 /* Menu */ = {
 			isa = PBXGroup;
 			children = (
-				D372D9F526A55ACA00F21F50 /* Model */,
+				D32F4F1E26A55D990055485E /* Model */,
 				D3D9E37626A28665008F8353 /* View */,
 				D3D9E37A26A286D0008F8353 /* Presenter */,
 				D3D9E39926A28CBF008F8353 /* MenuConfiguration.swift */,
@@ -845,6 +848,7 @@
 				D3D9E24E26A2674E008F8353 /* ViewController.swift in Sources */,
 				D3C2D56F26A4C55E007E2F0C /* Metadata.swift in Sources */,
 				D3DA92E326A38BC2004C6C94 /* LoginConfiguration.swift in Sources */,
+				D32F4F2026A55DBC0055485E /* Empty.swift in Sources */,
 				D3DA930326A3A2D0004C6C94 /* CandyStoreViewController.swift in Sources */,
 				D3DA931526A3A76E004C6C94 /* CandyStoreResponse.swift in Sources */,
 				D3D9E24A26A2674E008F8353 /* AppDelegate.swift in Sources */,
