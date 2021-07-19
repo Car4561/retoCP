@@ -218,13 +218,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D32F4F1E26A55D990055485E /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		D3C2D53626A490CD007E2F0C /* Payment */ = {
 			isa = PBXGroup;
 			children = (
@@ -424,7 +417,6 @@
 		D3D9E37526A28651008F8353 /* Menu */ = {
 			isa = PBXGroup;
 			children = (
-				D32F4F1E26A55D990055485E /* Model */,
 				D3D9E37626A28665008F8353 /* View */,
 				D3D9E37A26A286D0008F8353 /* Presenter */,
 				D3D9E39926A28CBF008F8353 /* MenuConfiguration.swift */,
